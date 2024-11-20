@@ -15,14 +15,24 @@
 
     <p>
      <label for="nom">Nombre:</label>
-     <input type="text" maxlength="6" name="nombre"
+     <input type="text" maxlength="6" 
+     name="nombre" required
+      placeholder="Escriba su nombre completo"
      id="nom">
     </p>
 
     <p>
+        <label for="pob">Población:</label>
+        <input type="text" value="Alcázar de San Juan" maxlength="50"
+        name="pob" 
+        id="pob">
+       </p>
+
+    <p>
      <label for="contrase">Contraseña:</label>
      <input type="password"
-      maxlength="6" 
+      maxlength="6"
+      minlength="4" 
       name="contrase"
      id="contrase">
     </p>
@@ -35,15 +45,14 @@
 
         <label for="mujer">Mujer</label>
         <input type="radio" value="M"
-        id="mujer" name="genero"
-        >
+        id="mujer" name="genero">
 
     </p>
 
     <p>
       <label for="fumador">Fumador:</label>
       <input type="checkbox" name="fuma"
-      id="fumador">
+      id="fumador" checked>
         
 
 
